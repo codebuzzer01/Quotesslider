@@ -1,0 +1,42 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+    flex: 0 0 80%;
+
+}
+#qtBtn {
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 1.6rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    outline: none;
+
+}
+#qtBtn:hover{
+    color: darkblue;
+    background-color: chocolate;
+}
+blockquote{
+    border-left:10px solid gray;
+    padding: 0.5rem;
+    margin: 1.5rem;
+}
+#author{
+    color: tomato;
+    
+
+}
